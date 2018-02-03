@@ -111,6 +111,7 @@ public class MainFragment extends Fragment implements
 
         mModels = new ArrayList<>();
 
+        /* creating dummy array list model by passing string array into arraylist */
         for (String movie : MOVIES) {
             mModels.add(new ExampleModel(movie));
         }
